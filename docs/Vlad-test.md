@@ -17,7 +17,9 @@ This second quote, from [Winston Churchill](https://www.brainyquote.com/quotes/w
 ---
 
 ### My favourite animal
-While I have never had a pet, I like zebras. I read a lot of animal encyclopedia when I was a child. For some reason I liked the stripes of zebras. 
+While I have never had a pet, I like zebras. I read a lot of animal encyclopedia when I was a child. For some reason I liked the stripes of zebras.
+
+
 ![Here is a picture of a zebra](https://images.ctfassets.net/cnu0m8re1exe/w4TS6ONjG71UXC3pkZDLc/5f162a88da4bebf9a9d29a867205b795/Zebra.jpg?w=650&h=433&fit=fill)
 
 ## Tables are fun 

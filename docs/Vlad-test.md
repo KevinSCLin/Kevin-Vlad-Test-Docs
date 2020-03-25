@@ -32,3 +32,45 @@ While I have never had a pet, I like zebras. I read a lot of animal encyclopedia
 | Obtain                | _Get_                       |
 | Subsequent            | _Later_                     |
 | In the vicinity of    | _Near_                      |
+
+### Conciseness Helps Web Readers
+
+Many readers of a website expect concise, well formatted and readable text. Otherwise we will leave within 1 second of seeing your website.
+
+For example turn a sentence like this:
+
+>At this point in time we can’t ascertain the reason as to why the screen door was left open.
+
+into this:
+```
+Now we can't understand why the screen door was left open.
+```
+
+And this:
+
+>There is a desire on the part of many of us to maintain a spring break for the purpose of getting away from the demands of our studies.
+
+into this:
+
+```
+We desire to use spring break to get away from the demands of our studies. 
+```
+
+## Code Blocks Make Me Happy
+
+This is python statement to prints "Hello World!" on the screen:
+
+```python
+print("Hello World!")
+```
+
+This statement in javascript also prints "Hello World!" on the console:
+
+```javascript
+console.log("Hello World!");
+```
+
+**I am all done !**
+
+
+

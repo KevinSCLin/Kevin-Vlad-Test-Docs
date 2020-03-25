@@ -9,5 +9,5 @@ This first quote is from [Maya Angelou](https://www.brainyquote.com/quotes/maya_
 attitude to changes:
 >If you don't like something change it. If you can't change it, change your attitude.
 
-This second quote, from [Winston Churchill](https://www.brainyquote.com/quotes/winston_churchill_161474) on why he prefers pigs to cats or dogs.
+This second quote, from [Winston Churchill](https://www.brainyquote.com/quotes/winston_churchill_161474) on his animal preference:
 >I am fond of pigs. Dogs look up to us. Cats look down on us. Pigs treat us as equals.

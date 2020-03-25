@@ -4,7 +4,7 @@ title: Glossary
 nav_order: 7
 ---
 
-# Search
+# Glossary
 {: .no_toc }
 
 ## Table of contents

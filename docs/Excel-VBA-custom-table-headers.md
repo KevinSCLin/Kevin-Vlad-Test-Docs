@@ -4,7 +4,7 @@ title: Excel VBA Custom Chart Pattern Labels
 nav_order: 100
 ---
 
-# Configuration
+# Customize Table Headers using Excel VBA
 {: .no_toc }
 
 

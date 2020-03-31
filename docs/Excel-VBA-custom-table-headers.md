@@ -18,7 +18,7 @@ This instruction will guide you to build a table with customized pattern table h
 {:toc}
 
 ---
-##What is the purpose of this instruction
+##Purpose of this instruction
 Sometimes you will need to build a very large table with atypical column and row headers.
 Excel's built-in autofill function may not recognize the pattern of column or row labels and does not work.
 Instead of manually entering values to thousands of cells, it is easier to use VBA to generate the row and column
@@ -37,7 +37,7 @@ If your Microsoft Excel already has developer mode enabled, skip this step.
 On the sidebar at the left side, click **Customize Ribbon**.
 3. Check the box labeled **Developer**. Click **OK** to save and exit.
 
-![ExcelOptions](https://github.com/KevinSCLin/MDTest/blob/master/assets/images/custom_table/ExcelOptions.PNG?raw=true "Excel Options window")
+![ExcelOptions](https://github.com/KevinSCLin/MDTest/blob/master/assets/images/ExcelOptions.PNG?raw=true "Excel Options window")
 
 ### MacOS
 

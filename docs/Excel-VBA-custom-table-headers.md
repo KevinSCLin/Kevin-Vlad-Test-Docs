@@ -44,7 +44,7 @@ On the sidebar at the left side, click **Customize Ribbon**.
 
     You should see a new tab named **Developer** at the ribbon located at the top.
 
-![ExcelOptions](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/assets/images/ExcelOptions.PNG?raw=true "Excel Options window")
+![ExcelOptions](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/gh-pages/assets/images/ExcelOptions.PNG?raw=true "Excel Options window")
 
 4. Open a new Excel spreadsheet. Save in your preferred location and save the file as Excel-Macro-Enabled Workbook (*.xlsm)
 
@@ -55,7 +55,7 @@ On the sidebar at the left side, click **Customize Ribbon**.
 ---
 ### Create a module in VBA
 1. Go to [Developer] > [Visual Basic] to open VBA Integrated Development Environment.
-![ExcelOptions](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/assets/images/VBA_IDE.PNG?raw=true "Excel Options window")
+![ExcelOptions](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/gh-pages/assets/images/VBA_IDE.PNG?raw=true "Excel Options window")
 
 2. Insert a new module by going to [Insert] > [Module]. A new module named **Module1** appears in the **Modules** folder in the [Project] window.
 
@@ -64,6 +64,7 @@ On the sidebar at the left side, click **Customize Ribbon**.
     NOTE: Module names cannot contain spaces and cannot begin with a numeric character or symbols.
 
 4. In the VBA editor window, paste the following codes.
+
 ```VBA
 Sub createRowLabels()
 
@@ -147,12 +148,12 @@ End Function
 
 ```
 ---
-###Implement the row & column label macros in the spreadsheet
+### Implement the row & column label macros in the spreadsheet
 The fastest method is to add buttons and mapped them to the macros we created above.
 1. Go to [Developer] > [Insert] > [Form Controls] > **Button**. Left-click and drag a small distance to create a new button.
 
     An **Assign Macro** window appears to connect the macro to this button.
-![Assign Macro](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/assets/images/assignMacro.PNG?raw=true "Excel Options window")
+![Assign Macro](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/gh-pages/assets/images/assignMacro.PNG?raw=true "Excel Options window")
 2. Assign the createColumnLabels macro by double clicking on it.
 3. Rename Button 1 to a different name by right-clicking on it, and edit the text inside the button
 4. Repeat steps 1, 2, and 3 above to implement the row label macro

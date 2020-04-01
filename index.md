@@ -39,6 +39,12 @@ A basic knowledge of Excel features includes the following skills:
 * [Microsoft Office 365 version of Excel](https://products.office.com/en-ca/compare-all-microsoft-office-products?&activetab=tab%3aprimaryr1) 
 * [Windows 10 operating system](https://www.microsoft.com/en-ca/windows/get-windows-10) 
 
-### Note
+## Typography
+* This ![Note][NOTE] is a Note symbol which indicates important information.
+* This ![Alert][ALERT] is an Alert symbol and indicates carefulness is necessary when proceeding.
+
+
+[NOTE]: https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/note_icon.png?raw=true
+[ALERT]: https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/alert_icon.png?raw=true
 
 

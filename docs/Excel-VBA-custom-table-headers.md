@@ -25,14 +25,14 @@ Excel's built-in autofill function may not recognize the pattern of column or ro
 Instead of manually entering values into many cells, it is easier to use VBA to generate the row and column
 labels for us. This table builder can serve as a reusable template.
 
-![NOTE][NOTE]NOTE: Excel's row width stands at 1048576, whereas column width is 16384.
+![Note][NOTE] NOTE: Excel's row width stands at 1048576, whereas column width is 16384.
 If you need to create a table with dimensions greater than  
 
 ## What is VBA
 VBA is an acronym for Visual Basic for Applications, a dialect of Visual Basic embedded in Microsoft Office Suite.
 It is widely used in Microsoft Excel as a simple programming language for building macros, forms, and procedures to automate repeating tasks.  
 
-![NOTE][NOTE]NOTE: Excel Online does not have VBA available. You must have a local copy of Microsoft Excel installed to proceed with this instruction.
+![Note][NOTE] NOTE: Excel Online does not have VBA available. You must have a local copy of Microsoft Excel installed to proceed with this instruction.
 ## Enable Developer Tab in MS Excel
 If your Microsoft Excel already has developer mode enabled, skip to [Create a module in VBA](#create-a-module-in-VBA).
 
@@ -62,11 +62,11 @@ On the sidebar at the left side, click **Customize Ribbon**.
 
 3. Double click on Module1. Change the name of the module by going to the [Properties] window, and replace the name with CustomRowColumnLabels.
 
-    ![NOTE][NOTE]NOTE: Module names cannot contain spaces and cannot begin with a numeric character or symbols.
+    ![Note][NOTE] NOTE: Module names cannot contain spaces and cannot begin with a numeric character or symbols.
 
 4. In the VBA editor window, paste the following codes.
 
-```visual basic
+```
 Sub createRowLabels()
     Dim prefix, postfix As String
     prefix = getPrefix
@@ -140,7 +140,6 @@ The fastest method is to add buttons and mapped them to the macros we created ab
 1. Go to [Developer] > [Insert] > [Form Controls] > **Button**. Left-click and drag a small distance to create a new button.
 
     An **Assign Macro** window appears to connect the macro to this button.
-    
     ![Assign Macro](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/assignMacro.PNG?raw=true)
 2. Assign the createColumnLabels macro by double clicking on it.
 3. Rename Button 1 to a different name by right-clicking on it, and edit the text inside the button
@@ -165,4 +164,4 @@ You can save a lot of time.
 4. 
 5.
 
-[NOTE]:https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/note_icon.PNG?raw=true
+[NOTE]: https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/note_icon.png?raw=true

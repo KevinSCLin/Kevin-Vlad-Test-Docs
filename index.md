@@ -46,6 +46,7 @@ A basic knowledge of Excel features includes the following skills:
 | **Bold**         | Option Selection     |
 | _Emphasis_       | Emphasized information |
 | ```Code```       | Code Block             |
+ 
 
 
 * ![Note][NOTE] **Note** symbol which indicates important information.

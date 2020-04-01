@@ -32,7 +32,7 @@ larger than 1048576 by 16384.
 VBA is an acronym for Visual Basic for Applications, a dialect of Visual Basic embedded in Microsoft Office Suite.
 It is widely used in Microsoft Excel as a simple programming language for building macros, forms, and procedures to automate repeating tasks.  
 
-![Note][NOTE] NOTE: Excel Online does not have VBA available. You must have a local copy of Microsoft Excel installed to proceed with this instruction.
+![Note][NOTE] NOTE: web-based Excel does not have VBA. You must have a local copy of Microsoft Excel installed on your computer to proceed with this instruction.
 ## Enable Developer Tab in Excel
 If your Microsoft Excel already has developer mode enabled, skip to [Create a module in VBA](#create-a-module-in-vba).
 
@@ -134,6 +134,9 @@ Function getCount() As String
     getCount = InputBox("Enter number of rows to create", "Please enter the number of rows to create")
 End Function
 ```
+Here is a screenshot snippet of how the VBA editor should look like.
+![VBA IDE with codes](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/VBA_codes_pasted?raw=true)
+
 ---
 ## Implement the row & column label macros in the spreadsheet
 The fastest method is to add buttons and mapped them to the macros we created above.
@@ -168,6 +171,7 @@ You must enter a integer number and cannot leave this box empty. Click **OK** to
 You must enter a integer number and cannot leave this box empty. Click **OK** to continue.
 
 Excel will generate the column labels based on the information you entered.
+Below is an example of a table created using the macro above.
 
 ## Benefits of using macro
 You can save a lot of time.

@@ -29,6 +29,6 @@ Here is an example.
 
 ![Gantt Chart sample table](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/gantt_chart_sample_tasks.png?raw=true)
 
-
+---
 ## 
 

@@ -37,20 +37,25 @@ It is widely used in Microsoft Excel as a simple programming language for buildi
 If your Microsoft Excel already has developer mode enabled, skip to [Create a module in VBA](#create-a-module-in-vba).
 
 ### Windows
-1. Open Microsoft Excel
-2. Go to [File] > [Options] This opens the Excel Options window. This opens the **Excel Options** window.
-On the sidebar at the left side, click **Customize Ribbon**.
-3. Check the box labeled **Developer**. Click **OK** to save and exit.
+
+1. Open Microsoft Excel and open a blank workbook. Save this workbook in your preferred location and select
+file type as **Excel Macro-Enabled Workbook (\*.xlsm)**
+
+    ![warning][ALERT] WARNING: Saving the file as regular Excel workbook (.xlsx) will result in the loss of ALL VBA codes!
+    
+    ![xlsm save](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/save_as_xlsm.png?raw=true)
+
+2. Go to [File] > [Options] This opens the Excel Options window. 
+
+    This opens the **Excel Options** window.
+    
+3. Click **Customize Ribbon** on the sidebar at the left side to enter 
+4. Check the box labeled **Developer**. Click **OK** to save and exit.
 
     You should see a new tab named **Developer** at the ribbon located at the top.
 
     ![ExcelOptions](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/ExcelOptions.PNG?raw=true)
 
-4. Open a new Excel spreadsheet. Save in your preferred location and save the file as Excel-Macro-Enabled Workbook (*.xlsm)
-
-    ![warning][ALERT] WARNING: Saving the file as regular spreadsheet will result in the loss of ALL VBA codes!
-
-### MacOS
 
 ---
 ## Create a module in VBA
@@ -135,14 +140,20 @@ Function getCount() As String
 End Function
 ```
 Here is a screenshot snippet of how the VBA editor should look like.
-![VBA IDE with codes](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/VBA_codes_pasted?raw=true)
+
+![VBA IDE with codes](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/VBA_codes_pasted.png?raw=true)
 
 ---
 ## Implement the row & column label macros in the spreadsheet
 The fastest method is to add buttons and mapped them to the macros we created above.
-1. Go to [Developer] > [Insert] > [Form Controls] > **Button**. Left-click and drag a small distance to create a new button.
+1. Go to [Developer] > [Insert] > [Form Controls] > **Button**.
+
+    ![insert button](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/developer_insert_button.png?raw=true)
+
+2. Left-click and drag a small distance to create a new button.
 
     An **Assign Macro** window appears to connect the macro to this button.
+    
     ![Assign Macro](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/assignMacro.PNG?raw=true)
 2. Assign the createColumnLabels macro by double clicking on it.
 3. Rename Button 1 to a different name by right-clicking on it, and edit the text inside the button
@@ -163,27 +174,24 @@ The fastest method is to add buttons and mapped them to the macros we created ab
     ![postfix window](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/postfix_popup.PNG?raw=true)
 
 4. Enter the first number in the series of columns in the message box titled _Please enter the starting number_.
-You must enter a integer number and cannot leave this box empty. Click **OK** to continue.
+
+    You must enter a integer number and cannot leave this box empty. Click **OK** to continue.
 
     ![starting number window](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/rows_popup.PNG?raw=true)
 
 5. Enter the number of columns to create in the message box titled _Please enter the number of rows to create_.
-You must enter a integer number and cannot leave this box empty. Click **OK** to continue.
 
-Excel will generate the column labels based on the information you entered.
-Below is an example of a table created using the macro above.
+    You must enter a integer number and cannot leave this box empty. Click **OK** to continue.
+
+    Excel will generate the column labels based on the information you entered.
+    Below is an example of a table created using the macro above.
+    
+    ![table example](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/table_example?raw=true)
 
 ## Benefits of using macro
-You can save a lot of time.
+You can save a lot of time by using macro to automate tasks and avoid human error with manual entry.
 
 ---
-
-## Troubleshooting
-1. Did Excel disable macros upon opening a macro-enabled spreadsheet?
-2. Are you using Excel Online?
-3. Did you save the file as a macro-enabled spreadsheet?
-4. 
-5.
 
 [NOTE]: https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/note_icon.png?raw=true
 [ALERT]: https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/alert_icon.png?raw=true

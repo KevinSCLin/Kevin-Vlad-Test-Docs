@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How to Build a Gantt Chart in Excel
-nav_order: 200
+nav_order: 2
 ---
 
 # Gantt chart in Excel

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Excel VBA Custom Chart Pattern Labels
-nav_order: 100
+nav_order: 3
 ---
 
 # Customize Table Headers using Excel VBA
@@ -18,7 +18,7 @@ This instruction will guide you to build a table with customized pattern table h
 {:toc}
 
 ---
-##Purpose of this instruction
+## Purpose of this instruction
 Sometimes you will need to build a very large table with atypical column and/or row headers.
 Each row label corresponds to an item in real world, e.g. specimen, sample, case, etc.
 Excel's built-in autofill function may not recognize the pattern of column or row labels and does not work.
@@ -53,7 +53,7 @@ On the sidebar at the left side, click **Customize Ribbon**.
 ### MacOS
 
 ---
-### Create a module in VBA
+## Create a module in VBA
 1. Go to [Developer] > [Visual Basic] to open VBA Integrated Development Environment.
 ![ExcelOptions](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/gh-pages/assets/images/VBA_IDE.PNG?raw=true "Excel Options window")
 
@@ -66,6 +66,7 @@ On the sidebar at the left side, click **Customize Ribbon**.
 4. In the VBA editor window, paste the following codes.
 
 ```VBA
+
 Sub createRowLabels()
 
     Dim prefix, postfix As String
@@ -91,9 +92,9 @@ Sub createRowLabels()
     
     Dim rowCount As Integer: rowCount = 2
     For i = 1 To countNumeric
-        ThisWorkbook.Sheets(1).Range("A" & rowCount).Value = prefix & countNumeric & postfix
+        ThisWorkbook.Sheets(1).Range("A" & rowCount).Value = prefix & idNumeric & postfix
         rowCount = rowCount + 1
-        countNumeric = countNumeric + 1
+        idNumeric = idNumeric + 1
     Next i
 
 End Sub
@@ -123,9 +124,9 @@ Sub createColumnLabels()
     
     Dim ColumnCount As Integer: ColumnCount = 2
     For i = 1 To countNumeric
-        ThisWorkbook.Sheets(1).Cells(1, ColumnCount).Value = prefix & countNumeric & postfix
+        ThisWorkbook.Sheets(1).Cells(1, ColumnCount).Value = prefix & idNumeric & postfix
         ColumnCount = ColumnCount + 1
-        countNumeric = countNumeric + 1
+        idNumeric = idNumeric + 1
     Next i
     
 End Sub
@@ -146,7 +147,9 @@ Function getCount() As String
     getCount = InputBox("Enter number of rows to create", "Please enter the number of rows to create")
 End Function
 
+
 ```
+
 ---
 ### Implement the row & column label macros in the spreadsheet
 The fastest method is to add buttons and mapped them to the macros we created above.
@@ -159,8 +162,16 @@ The fastest method is to add buttons and mapped them to the macros we created ab
 4. Repeat steps 1, 2, and 3 above to implement the row label macro
 
 ---
+### How to user the macro
+1. Activate the **create column labels** macro by click on the button named after it.
+2. Enter the prefix in the message box titled Please enter the prefix (Leave empty if none). Click OK to continue.
+3. Enter the postfix in the message box 
+
+
 ### Benefits of using macro
 You can save a lot of time.
+
+---
 
 ### Troubleshooting
 1. Did Excel disable macros upon opening a macro-enabled spreadsheet?

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Excel VBA Custom Table Headers
+title: Build a Table with Custom Headers Using VBA
 nav_order: 3
 ---
 
@@ -20,13 +20,13 @@ This instruction will guide you on how to build a table with customized pattern 
 ---
 ## Purpose of this instruction
 Sometimes you will need to build a very large table with atypical column and/or row labels.
-Each row label corresponds to an item in real world, e.g. specimen, sample, case, etc.
-Excel's built-in autofill function may not recognize the pattern of column or row labels and does not work.
+Each label corresponds to an item in real world, such as a specimen, case number, or a serial number in increasing order. 
+Excel's built-in autofill function may not recognize the pattern of the labels.
 Instead of manually entering the names of each column or row, it is easier to use VBA to generate the row and column
 labels for us. This table builder can serve as a reusable template.
 
-![Note][NOTE] NOTE: Excel's row width stands at 1048576, whereas column width is 16384.
-If you need to create a table with dimensions greater than  
+![Note][NOTE] NOTE: Excel's row and column widths are 1048576 and 16384 respectively. You cannot build a table
+larger than 1048576 by 16384.
 
 ## What is VBA
 VBA is an acronym for Visual Basic for Applications, a dialect of Visual Basic embedded in Microsoft Office Suite.

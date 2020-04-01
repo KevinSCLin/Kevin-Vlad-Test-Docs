@@ -40,8 +40,8 @@ A basic knowledge of Excel features includes the following skills:
 * [Windows 10 operating system](https://www.microsoft.com/en-ca/windows/get-windows-10) 
 
 ## Typography
-* This ![Note][NOTE] is a Note symbol which indicates important information.
-* This ![Alert][ALERT] is an Alert symbol and indicates carefulness is necessary when proceeding.
+* ![Note][NOTE] **Note** symbol which indicates important information.
+* ![Alert][ALERT] **Alert** symbol and indicates caution is necessary when proceeding.
 
 
 [NOTE]: https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/note_icon.png?raw=true

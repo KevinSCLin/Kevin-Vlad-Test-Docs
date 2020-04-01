@@ -7,9 +7,7 @@ nav_order: 2
 # Introduction
 {: .no_toc }
 
-
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's _config.yml file.
-{: .fs-6 .fw-300 }
+This following is a set of instructions on how to use Excel to produce tables, Gantt charts and merge tables.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -20,7 +18,9 @@ Just the Docs has some specific configuration parameters that can be defined in 
 ---
 
 
-## Is This Guide For You
+## Why use excel
+Excel spreadsheets have become a standard in the Business community and is used to exchange data and perform various calculations. 
+Excel is used to 
 
 
 
@@ -30,7 +30,7 @@ Just the Docs has some specific configuration parameters that can be defined in 
 
 
 
-## Why use Excel
+## 
 
 
 

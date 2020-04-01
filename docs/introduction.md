@@ -6,8 +6,7 @@ nav_order: 1
 
 # Introduction
 {: .no_toc }
-
-This following is a set of instructions on how to use Excel to produce tables, Gantt charts and merge tables.
+Microsoft Excel is the most widely used data communication and calculation tool in business. Microsoft Excel has powerful plotting and data organization abilities that are widely known. However Excel also has many time saving features such as VBA Macros that are not as widely known. This document will provide you with the knowledge about some of those basic time saving features.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -18,21 +17,24 @@ This following is a set of instructions on how to use Excel to produce tables, G
 ---
 
 
-## Why use excel
+## Benefits of developing Excel skills
 Excel spreadsheets have become a standard in the Business community and is used to exchange data and perform various calculations. 
-Excel is used to 
+As most businesses use Excel any additional skills learned can be beneficial for standing out amongst your peers. Additionaly many of these feautures can be used personally to improve organization and planning your schedule or finances.
 
 
+## Is this guide for you
+This instruction is tailored towards a user with previous knowledge of Microsoft Excel. As such no instructions about basic skills and terminology will be provided in this document. 
 
-## Prerequisites
-
-
-
-
-
-## 
-
-
+A basic knowledge of Excel features includes the following skills:
+ * Creating and saving Excel spreadsheets.
+ * Cutting/ copying and pasting cells.
+ * Using aggregate functions (SUM,AVERAGE,MIN,MAX) across a range.
+ 
+[Learn basic Excel skills and terminology](https://www.excel-easy.com/).
+ 
+ ## Software And System requirements
+* [Microsoft Office 365 version of Excel](https://products.office.com/en-ca/compare-all-microsoft-office-products?&activetab=tab%3aprimaryr1) 
+* [Windows 10 operating system](https://www.microsoft.com/en-ca/windows/get-windows-10) 
 
 
 ## Conclusion

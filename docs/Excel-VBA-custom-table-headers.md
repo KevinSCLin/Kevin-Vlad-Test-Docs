@@ -26,13 +26,14 @@ Instead of manually entering the names of each column or row, it is easier to us
 labels for us. This table builder can serve as a reusable template.
 
 ![Note][NOTE] NOTE: Excel's row and column widths are 1048576 and 16384 respectively. You cannot build a table
-larger than 1048576 by 16384.
+    larger than 1048576 by 16384.
 
 ## What is VBA
 VBA is an acronym for Visual Basic for Applications, a dialect of Visual Basic embedded in Microsoft Office Suite.
 It is widely used in Microsoft Excel as a simple programming language for building macros, forms, and procedures to automate repeating tasks.  
 
-![Note][NOTE] NOTE: web-based Excel does not have VBA. You must have a local copy of Microsoft Excel installed on your computer to proceed with this instruction.
+![Note][NOTE] NOTE: Web-based version of Excel does not support VBA. You must have a local copy of Microsoft Excel installed on your computer to proceed with this instruction.
+
 ## Enable Developer Tab in Excel
 If your Microsoft Excel already has developer mode enabled, skip to [Create a module in VBA](#create-a-module-in-vba).
 
@@ -45,7 +46,7 @@ file type as **Excel Macro-Enabled Workbook (\*.xlsm)**
     
     ![xlsm save](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/save_as_xlsm.png?raw=true)
 
-2. Go to [File] > [Options] This opens the Excel Options window. 
+2. Go to [File] > [Options].
 
     This opens the **Excel Options** window.
     
@@ -59,6 +60,8 @@ file type as **Excel Macro-Enabled Workbook (\*.xlsm)**
 
 ---
 ## Create a module in VBA
+A VBA module is where you can create and save functions. Developers use modules to group related functions together.
+
 1. Go to [Developer] > [Visual Basic] to open VBA Integrated Development Environment.
 
     ![VBA_IDE](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/VBA_IDE.PNG?raw=true)
@@ -157,7 +160,7 @@ The fastest method is to add buttons and mapped them to the macros we created ab
     ![Assign Macro](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/assignMacro.PNG?raw=true)
 2. Assign the createColumnLabels macro by double clicking on it.
 3. Rename Button 1 to a different name by right-clicking on it, and edit the text inside the button
-4. Repeat steps 1, 2, and 3 above to implement the row label macro
+4. Repeat steps 1, 2, and 3 above to implement the row label macro.
 
 ---
 ## How to use the macro
@@ -186,7 +189,7 @@ The fastest method is to add buttons and mapped them to the macros we created ab
     Excel will generate the column labels based on the information you entered.
     Below is an example of a table created using the macro above.
     
-    ![table example](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/table_example?raw=true)
+    ![table example](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/table_example.png?raw=true)
 
 ## Benefits of using macro
 You can save a lot of time by using macro to automate tasks and avoid human error with manual entry.

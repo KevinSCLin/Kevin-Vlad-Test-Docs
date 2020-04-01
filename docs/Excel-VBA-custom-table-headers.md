@@ -135,7 +135,7 @@ Function getCount() As String
 End Function
 ```
 ---
-### Implement the row & column label macros in the spreadsheet
+## Implement the row & column label macros in the spreadsheet
 The fastest method is to add buttons and mapped them to the macros we created above.
 1. Go to [Developer] > [Insert] > [Form Controls] > **Button**. Left-click and drag a small distance to create a new button.
 
@@ -146,27 +146,35 @@ The fastest method is to add buttons and mapped them to the macros we created ab
 4. Repeat steps 1, 2, and 3 above to implement the row label macro
 
 ---
-### How to userthe macro
+## How to use the macro
 1. Activate the **create column labels** macro by click on the button named after it.
-![column button](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/column_labels_button.PNG?raw=true)
+
+    ![column button](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/column_labels_button.png?raw=true)
+
 2. Enter the prefix in the message box titled _Please enter the prefix (Leave empty if none)_. Click **OK** to continue.
-![prefix window](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/prefix_popup.PNG?raw=true)
+
+    ![prefix window](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/prefix_popup.PNG?raw=true)
+
 3. Enter the postfix in the message box titled _Please enter the postfix (Leave empty if none)_. Click **OK** to continue.
-![postfix window](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/postfix_popup.PNG?raw=true)
+
+    ![postfix window](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/postfix_popup.PNG?raw=true)
+
 4. Enter the first number in the series of columns in the message box titled _Please enter the starting number_.
 You must enter a integer number and cannot leave this box empty. Click **OK** to continue.
-![starting number window](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/rows_popup.PNG?raw=true)
+
+    ![starting number window](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/rows_popup.PNG?raw=true)
+
 5. Enter the number of columns to create in the message box titled _Please enter the number of rows to create_.
 You must enter a integer number and cannot leave this box empty. Click **OK** to continue.
 
 Excel will generate the column labels based on the information you entered.
 
-### Benefits of using macro
+## Benefits of using macro
 You can save a lot of time.
 
 ---
 
-### Troubleshooting
+## Troubleshooting
 1. Did Excel disable macros upon opening a macro-enabled spreadsheet?
 2. Are you using Excel Online?
 3. Did you save the file as a macro-enabled spreadsheet?

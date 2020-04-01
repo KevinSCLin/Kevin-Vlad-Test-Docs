@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Excel VBA Custom Chart Pattern Labels
+title: Excel VBA Custom Table Headers
 nav_order: 3
 ---
 
-# Customize Table Headers using Excel VBA
+# Customize Headers in a Large Table using Excel VBA
 {: .no_toc }
 
 
-This instruction will guide you to build a table with customized pattern table headers.
+This instruction will guide you on how to build a table with customized pattern table headers.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -19,10 +19,10 @@ This instruction will guide you to build a table with customized pattern table h
 
 ---
 ## Purpose of this instruction
-Sometimes you will need to build a very large table with atypical column and/or row headers.
+Sometimes you will need to build a very large table with atypical column and/or row labels.
 Each row label corresponds to an item in real world, e.g. specimen, sample, case, etc.
 Excel's built-in autofill function may not recognize the pattern of column or row labels and does not work.
-Instead of manually entering values into many cells, it is easier to use VBA to generate the row and column
+Instead of manually entering the names of each column or row, it is easier to use VBA to generate the row and column
 labels for us. This table builder can serve as a reusable template.
 
 ![Note][NOTE] NOTE: Excel's row width stands at 1048576, whereas column width is 16384.
@@ -33,8 +33,8 @@ VBA is an acronym for Visual Basic for Applications, a dialect of Visual Basic e
 It is widely used in Microsoft Excel as a simple programming language for building macros, forms, and procedures to automate repeating tasks.  
 
 ![Note][NOTE] NOTE: Excel Online does not have VBA available. You must have a local copy of Microsoft Excel installed to proceed with this instruction.
-## Enable Developer Tab in MS Excel
-If your Microsoft Excel already has developer mode enabled, skip to [Create a module in VBA](#create-a-module-in-VBA).
+## Enable Developer Tab in Excel
+If your Microsoft Excel already has developer mode enabled, skip to [Create a module in VBA](#create-a-module-in-vba).
 
 ### Windows
 1. Open Microsoft Excel
@@ -48,7 +48,7 @@ On the sidebar at the left side, click **Customize Ribbon**.
 
 4. Open a new Excel spreadsheet. Save in your preferred location and save the file as Excel-Macro-Enabled Workbook (*.xlsm)
 
-    WARNING: Saving the file as regular spreadsheet will result in the loss of ALL VBA codes!
+    ![warning][ALERT] WARNING: Saving the file as regular spreadsheet will result in the loss of ALL VBA codes!
 
 ### MacOS
 
@@ -148,9 +148,18 @@ The fastest method is to add buttons and mapped them to the macros we created ab
 ---
 ### How to userthe macro
 1. Activate the **create column labels** macro by click on the button named after it.
-2. Enter the prefix in the message box titled Please enter the prefix (Leave empty if none). Click OK to continue.
-3. Enter the postfix in the message box 
+![column button](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/column_labels_button.PNG?raw=true)
+2. Enter the prefix in the message box titled _Please enter the prefix (Leave empty if none)_. Click **OK** to continue.
+![prefix window](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/prefix_popup.PNG?raw=true)
+3. Enter the postfix in the message box titled _Please enter the postfix (Leave empty if none)_. Click **OK** to continue.
+![postfix window](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/postfix_popup.PNG?raw=true)
+4. Enter the first number in the series of columns in the message box titled _Please enter the starting number_.
+You must enter a integer number and cannot leave this box empty. Click **OK** to continue.
+![starting number window](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/rows_popup.PNG?raw=true)
+5. Enter the number of columns to create in the message box titled _Please enter the number of rows to create_.
+You must enter a integer number and cannot leave this box empty. Click **OK** to continue.
 
+Excel will generate the column labels based on the information you entered.
 
 ### Benefits of using macro
 You can save a lot of time.
@@ -165,3 +174,4 @@ You can save a lot of time.
 5.
 
 [NOTE]: https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/note_icon.png?raw=true
+[ALERT]: https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/alert_icon.png?raw=true

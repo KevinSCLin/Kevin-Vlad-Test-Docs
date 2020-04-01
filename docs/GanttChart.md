@@ -27,7 +27,7 @@ A Gantt chart provides a viewer a quick, generalized breakdown of time-based wei
 You will need the tasks and their start date or duration entered in a tabular form.
 Here is an example.
 
-    ![Gantt Chart sample table](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/gantt_chart_sample_tasks.png?raw=true)
+![Gantt Chart sample table](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/gantt_chart_sample_tasks.png?raw=true)
 
 
 ## 

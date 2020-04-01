@@ -25,7 +25,7 @@ Excel spreadsheets have become a standard in the Business community and is used 
 As most businesses use Excel any additional skills learned can be beneficial for standing out amongst your peers. Additionaly many of these feautures can be used personally to improve organization and planning your schedule or finances.
 
 
-## Is this guide for you
+## Knowledge requirements
 This instruction is tailored towards a user with previous knowledge of Microsoft Excel. As such no instructions about basic skills and terminology will be provided in this document. 
 
 A basic knowledge of Excel features includes the following skills:
@@ -37,7 +37,22 @@ A basic knowledge of Excel features includes the following skills:
 
 ## Software And System requirements
 * [Microsoft Office 365 version of Excel](https://products.office.com/en-ca/compare-all-microsoft-office-products?&activetab=tab%3aprimaryr1) 
-* [Windows 10 operating system](https://www.microsoft.com/en-ca/windows/get-windows-10) 
 
-## Conclusion
+## Typography
+
+| Typograpy | Meaning |
+| ----------| --------|
+| [Menu] > [Option]| Menu Path Selection  |
+| **Bold**         | Option Selection     |
+| _Emphasis_       | Emphasized information |
+| ```Code```       | Code Block             |
+
+
+* ![Note][NOTE] **Note** symbol which indicates important information.
+* ![Alert][ALERT] **Alert** symbol and indicates caution is necessary when proceeding.
+
+
+[NOTE]: https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/note_icon.png?raw=true
+[ALERT]: https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/alert_icon.png?raw=true
+
 

@@ -37,9 +37,17 @@ A basic knowledge of Excel features includes the following skills:
 
 ## Software And System requirements
 * [Microsoft Office 365 version of Excel](https://products.office.com/en-ca/compare-all-microsoft-office-products?&activetab=tab%3aprimaryr1) 
-* [Windows 10 operating system](https://www.microsoft.com/en-ca/windows/get-windows-10) 
 
 ## Typography
+
+| Typograpy | Meaning |
+| ----------| --------|
+| [Menu] > [Option]| Menu Path Selection  |
+| **Bold**         | Option Selection     |
+| _Emphasis_       | Emphasized information |
+| ```Code```       | Code Block             |
+
+
 * ![Note][NOTE] **Note** symbol which indicates important information.
 * ![Alert][ALERT] **Alert** symbol and indicates caution is necessary when proceeding.
 

@@ -22,11 +22,11 @@ Microsoft Excel is the most widely used data communication and calculation tool 
 
 ## Benefits of developing Excel skills
 Excel spreadsheets have become a standard in the Business community and is used to exchange data and perform various calculations. 
-As most businesses use Excel any additional skills learned can be beneficial for standing out amongst your peers. Additionaly many of these feautures can be used personally to improve organization and planning your schedule or finances.
+As most businesses use Excel, any additional skills learned can be beneficial for standing out amongst your peers. Additionaly many of these feautures can be used personally to improve organization and planning your schedule or finances.
 
 
 ## Knowledge requirements
-This instruction is tailored towards a user with previous knowledge of Microsoft Excel. As such no instructions about basic skills and terminology will be provided in this document. 
+This instruction is tailored towards a user with previous knowledge of Microsoft Excel. As such, no instructions about basic skills and terminology will be provided in this document. 
 
 A basic knowledge of Excel features includes the following skills:
  * Creating and saving Excel spreadsheets.

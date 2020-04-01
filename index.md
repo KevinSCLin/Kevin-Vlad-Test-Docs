@@ -34,7 +34,7 @@ A basic knowledge of Excel features includes the following skills:
  * Using aggregate functions (SUM,AVERAGE,MIN,MAX) across a range.
  
 [Learn basic Excel skills and terminology](https://www.excel-easy.com/).
- 
+
  ## Software And System requirements
 * [Microsoft Office 365 version of Excel](https://products.office.com/en-ca/compare-all-microsoft-office-products?&activetab=tab%3aprimaryr1) 
 * [Windows 10 operating system](https://www.microsoft.com/en-ca/windows/get-windows-10) 

@@ -25,16 +25,13 @@ Excel's built-in autofill function may not recognize the pattern of the labels.
 Instead of manually entering the names of each column or row, it is easier to use VBA to generate the row and column
 labels for us. This macros introduced in this guide can serve as a reusable table builder template.
 
-![Note][NOTE] NOTE: Excel's row and column widths are 1048576 and 16384 respectively. You cannot build a table
-    larger than 1048576 by 16384.
+![Note][NOTE] NOTE: Excel's row and column limits are 1048576 and 16384 respectively. You cannot build a table
+    with row count greater than 1048576 and column count greater than 16384.
 
-## What is VBA
-VBA is an acronym for Visual Basic for Applications, a dialect of Visual Basic embedded in Microsoft Office Suite.
-It is widely used in Microsoft Excel as a simple programming language for building macros, forms, and procedures to automate repeating tasks.  
+## Enable Developer Tab in Excel
 
 ![Note][NOTE] NOTE: Web-based version of Excel does not support VBA. You must use an installed version of Microsoft Excel to proceed with this instruction.
 
-## Enable Developer Tab in Excel
 If your Microsoft Excel already has developer mode enabled, skip to [Create a module in VBA](#create-a-module-in-vba).
 
 ### Windows

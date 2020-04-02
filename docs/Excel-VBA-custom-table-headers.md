@@ -23,7 +23,7 @@ Sometimes you will need to build a very large table with atypical column and/or 
 Each label corresponds to an item in real world, such as a specimen, case number, or a serial number in increasing order. 
 Excel's built-in autofill function may not recognize the pattern of the labels.
 Instead of manually entering the names of each column or row, it is easier to use VBA to generate the row and column
-labels for us. This table builder can serve as a reusable template.
+labels for us. This macros introduced in this guide can serve as a reusable table builder template.
 
 ![Note][NOTE] NOTE: Excel's row and column widths are 1048576 and 16384 respectively. You cannot build a table
     larger than 1048576 by 16384.
@@ -32,7 +32,7 @@ labels for us. This table builder can serve as a reusable template.
 VBA is an acronym for Visual Basic for Applications, a dialect of Visual Basic embedded in Microsoft Office Suite.
 It is widely used in Microsoft Excel as a simple programming language for building macros, forms, and procedures to automate repeating tasks.  
 
-![Note][NOTE] NOTE: Web-based version of Excel does not support VBA. You must have a local copy of Microsoft Excel installed on your computer to proceed with this instruction.
+![Note][NOTE] NOTE: Web-based version of Excel does not support VBA. You must use an installed version of Microsoft Excel to proceed with this instruction.
 
 ## Enable Developer Tab in Excel
 If your Microsoft Excel already has developer mode enabled, skip to [Create a module in VBA](#create-a-module-in-vba).
@@ -192,7 +192,7 @@ The fastest method is to add buttons and mapped them to the macros we created ab
     ![table example](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/table_example.png?raw=true)
 
 ## Benefits of using macro
-You can save a lot of time by using macro to automate tasks and avoid human error with manual entry.
+You can save a lot of time by using macro to automate tasks and avoid human error from manual entry.
 
 ---
 

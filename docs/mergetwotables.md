@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Merge Two or More Tables
-nav_order: 2
+nav_order: 4
 description: "Merge two tables instruction."
 permalink: /
 ---

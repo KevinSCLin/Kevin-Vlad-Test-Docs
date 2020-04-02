@@ -26,35 +26,52 @@ When structuring information within tables it is necessary to keep related data 
 ## Instructions
 
 ### Saving a Table as a Connection
-1. Open Excel spreadsheet with the tables you wish to merge.
-2. Select [Data] from the large toolbar at the top.
-3. Click on a cell in any of tables you wish to merge.
-4. Select **From Table/Range** in the _Get & Transform_ section of the [Data] menu.
+Open Excel spreadsheet with the tables you wish to merge.
+1. Select [Data] from the large toolbar at the top.
+2. Click on a cell in any of tables you wish to merge.
+3. Select **From Table/Range** in the _Get & Transform_ section of the [Data] menu.
 ![Step 1-3](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/Steps 3+4.PNG?raw=true)
-A popup called Power Query Editor will appear 
+   
+   A popup called Power Query Editor will appear 
 
 5. Click [File] from the large toolbar of the Power Query Editor.
+![Step 5](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/Step5.PNG?raw=true)
+
 6. Select **Save & Load To** from the dropdown menu
-A box with several save options will appear on your screen
+
+![Step 6](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/Step6.PNG?raw=true)
+
+   A box with several save options will appear on your screen
+
 7. Select the **Only Create Connection** option.
+
 8. Click **OK**
-Progress Check 1: A menu should pop out on the right side of your screen called Queries & Connections and you should see your table there.
+
+![Step 7](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/Step7.PNG?raw=true)
+
+   Progress Check 1: A menu should pop out on the right side of your screen called Queries & Connections and you should see your table    there.
+   
 9. Repeat Steps 3 through 8 for all tables you wish to merge.
 
 ### Merging Connections into a Single Table
 1. Select [Get Data] from the [Data] menu.
 2. Select **Combine Queries** from the dropdown.
 3. Click **Merge**.
+  ![Steps 1,2,3](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/Part2Steps1.PNG?raw=true)
 4. Select the two tables you wish to merge from the dropdown bars.
+  ![Step 4](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/Part2Steps2.PNG?raw=true)
 5. Click on the single column you wish to match the tables by on both tables.
 6. Select **Left Join** from the **Join Kind** dropdown menu.
 7. Click **OK**
+![Steps 5,6,7](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/Part2Steps3.PNG?raw=true)
 A Power Query editor should appear on our screen.
 8. Click on the two arrows pointing in opposite directions above the table of labels.
+![Steps 8](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/Part2Steps4.PNG?raw=true)
 A Box of options should appear.
 9. Unselect **Select all columns**.
 10. Click the column you want to display.
 11. Click **OK**
+![Step 9](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/Part2Steps5.PNG?raw=true)
 12. Click [File] from the menu at the top.
 13. Save in the format you wish.
  

@@ -46,9 +46,11 @@ Here is an example.
 
 2. Click the **Add** button.
 
-    ![series name select_title](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/select_data_source_add_button.png?raw=true)
-
-    Click on the Up Arrow adjacent to _Series name_ textbox to add a title for the tasks.
+    ![add button](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/select_data_source_add_button.png?raw=true)
+    
+    The _Select Data Source_ transforms to _Edit Series_ window.
+    
+    Click on the Up Arrow adjacent to _Series name_ text box to add a title for the starting dates.
     
     The _Edit Series_ box transforms to show only a text box for select or entering the range of the title.
     
@@ -64,10 +66,10 @@ Here is an example.
    
 4. Click on the Up Arrow adjacent to _Series values_ text box to include the task names in the chart.
 
-   The _Edit Series_ box transforms to show only a text box for select or entering the range of cells storing the task starting dates.
-   
    ![series values up arrow](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/edit_series_series_values_up_button.PNG?raw=true)
-   
+
+   The _Edit Series_ box transforms to show only a text box for select or entering the range of cells storing the task starting dates.
+      
    Left-click and drag to select the cells containing the task start dates. Click the Down Arrow to complete selection.
    
    ![series values up arrow](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/edit_series_select_values.png?raw=true)
@@ -77,21 +79,24 @@ Here is an example.
    
 5. Click **OK** to save the data selected in the above steps.
 
-### Adding duration to tasks
+### Adding names to tasks
 
 1. Click on the **Edit** button in _Select Data Source_ window.
 
     ![edit button](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/select_data_source_edit_button.png?raw=true)
     
-    The _Select Data Source_ window will transform into _Axis Labels_ window.
+    The _Select Data Source_ window transforms into _Axis Labels_ window.
+    
+    ![Note][NOTE] NOTE: Even though the **Edit** button's caption says _Horizontal (Category) Axis Labels_, 
+    the bar chart is horizontal, effectively the conventional x and y axes placement swapped.
     
 2. Click on the Up Arrow button adjacent to the _Axis label range_ text box.
     
-    ![axis labels up button](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/axis_labels_up_button.png?raw=true)
+    ![axis labels up button](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/axis_labels_up_button.PNG?raw=true)
     
 3. Left-click and drag to select the cells containing the task names.
 
-    ![axis labels up button](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/axis_labels_select_range.png?raw=true)
+    ![select title range](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/axis_labels_select_range.png?raw=true)
 
     The _Axis Labels_ text box now contains the range storing the names of tasks.
     
@@ -101,6 +106,32 @@ Here is an example.
 
 ### Adding duration to tasks
 
+The following steps repeat those in [Adding starting dates to tasks](#adding-starting-dates-to-tasks) above,
+with the exception of selecting different ranges of cells. Skip to [Modifying graph layout](#modifying-graph-layout)
+if you understand how to add new data to a graph.
 
+1. Click the **Add** button in the _Select Data Source_ window.
 
+    ![add button2](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/select_data_source_add_button_2.PNG?raw=true)
+
+    The _Select Data Source_ window transforms into _Axis Labels_ window.
     
+    Click on the Up Arrow adjacent to _Series name_ text box to add a title for the starting dates.
+        
+    The _Edit Series_ box transforms to show only a text box for select or entering the range of the title.
+        
+    ![series name up arrow](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/edit_series_series_name_up_button.png?raw=true)
+    
+2. Click on the title for task duration.
+
+    ![series name select_title](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/edit_series_select_title2.png?raw=true)
+
+   Next, click the Down Arrow adjacent to _Series name_ textbox to complete selection of title.
+   
+   The _Edit Series_ box transforms back to its original form.
+
+3. Click on the Up Arrow adjacent to _Series values_ text box to include the task names in the chart.
+   
+      The _Edit Series_ box transforms to show only a text box for select or entering the range of cells storing the task durations.
+
+## Modifying graph layout

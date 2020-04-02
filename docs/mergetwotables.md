@@ -30,6 +30,7 @@ When structuring information within tables it is necessary to keep related data 
 ### Saving a Table as a Connection
 1. Open Excel spreadsheet with the tables you wish to merge.
 2. Select [Data] from the large toolbar at the top.
+![Step 2](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/Step 2.png)
 3. Click on a cell in any of tables you wish to merge.
 4. Select **From Table/Range** in the _Get & Transform_ section of the [Data] menu.
 A popup called Power Query Editor will appear 
@@ -40,8 +41,9 @@ A box with several save options will appear on your screen
 8. Click **OK**
 Progress Check 1: A menu should pop out on the right side of your screen called Queries & Connections and you should see your table there.
 9. Repeat Steps 3 through 8 for all tables you wish to merge.
+
 ### Merging Connections into a Single Table
-...1. Select [Get Data] from the [Data] menu.
+1. Select [Get Data] from the [Data] menu.
 2. Select **Combine Queries** from the dropdown.
 3. Click **Merge**.
 4. Select the two tables you wish to merge from the dropdown bars.

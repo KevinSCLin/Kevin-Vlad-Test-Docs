@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Glossary
+title: Merging Two Or More Tables
 nav_order: 5
 ---
 

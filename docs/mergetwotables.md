@@ -1,8 +1,59 @@
 ---
 layout: default
-title: Merge Two Table Values
-nav_order: 9
+title: Merge Two or More Tables
+nav_order: 2
+description: "Merge two tables instruction."
+permalink: /
 ---
 
-# Merge Two table Values
+
+# Merging two tables 
 {: .no_toc }
+
+This instruction will guide you on how to merge information scattered in two or more tables into a single table. 
+{: .fs-6 .fw-300 }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+
+## Purpose of this instruction
+When structuring information within tables it is necessary to keep related data together. Sometimes it is necessary to combine this information into a Power Query. This will provide an insightful summary of data scattered in several tables. This instruction set will follow the procedure using Power Query.  
+
+## Instructions
+1. Open Excel spreadsheet with the tables you wish to merge.
+2. Select [Data] from the large toolbar at the top.
+3. Click on a cell in any of tables you wish to merge.
+4. Select **From Table/Range** in the _Get & Transform_ section of the [Data] menu.
+A popup called Power Query Editor will appear 
+5. Click [File] from the large toolbar of the Power Query Editor.
+6. Select **Save & Load To** from the dropdown menu
+A box with several save options will appear on your screen
+7. Select the **Only Create Connection** option.
+8. Click **OK**
+Progress Check 1: A menu should pop out on the right side of your screen called Queries & Connections and you should see your table there.
+9. Repeat Steps 3 through 8 for all tables you wish to merge.
+10. Select [Get Data] from the [Data] menu.
+11. Select **Combine Queries** from the dropdown.
+12. Click **Merge**.
+13. Select the two tables you wish to merge from the dropdown bars.
+14. Click on the single column you wish to match the tables by on both tables.
+15. Select **Left Join** from the **Join Kind** dropdown menu.
+16. Click **OK**
+A Power Query editor should appear on our screen.
+17. Click on the two arrows pointing in opposite directions above the table of labels.
+A Box of options should appear.
+18. Unselect **Select all columns**.
+19. Click the column you want to display.
+20. Click **OK**
+21. Click [File] from the menu at the top.
+22. Save in the format you wish.
+ 
+
+
+

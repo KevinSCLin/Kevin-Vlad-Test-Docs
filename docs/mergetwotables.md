@@ -31,7 +31,9 @@ When structuring information within tables it is necessary to keep related data 
 ![Step 2](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/Step 2.png?raw=true)
 3. Click on a cell in any of tables you wish to merge.
 4. Select **From Table/Range** in the _Get & Transform_ section of the [Data] menu.
+
 A popup called Power Query Editor will appear 
+
 5. Click [File] from the large toolbar of the Power Query Editor.
 6. Select **Save & Load To** from the dropdown menu
 A box with several save options will appear on your screen

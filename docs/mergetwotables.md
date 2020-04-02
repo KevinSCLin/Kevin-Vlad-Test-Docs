@@ -41,7 +41,7 @@ A box with several save options will appear on your screen
 Progress Check 1: A menu should pop out on the right side of your screen called Queries & Connections and you should see your table there.
 9. Repeat Steps 3 through 8 for all tables you wish to merge.
 ### Merging Connections into a Single Table
-1. Select [Get Data] from the [Data] menu.
+...1. Select [Get Data] from the [Data] menu.
 2. Select **Combine Queries** from the dropdown.
 3. Click **Merge**.
 4. Select the two tables you wish to merge from the dropdown bars.

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Build a Table with Custom Headers Using VBA
+title: Building a Table with Custom Headers Using VBA
 nav_order: 3
 ---
 

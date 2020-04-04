@@ -31,6 +31,9 @@ Basic knowledge of Excel features includes the following:
  * Cutting, copying, pasting, and entering values in cells,
  * Using aggregate functions (SUM, AVERAGE, MIN, MAX) across a range of cells.
  
+ If you cannot perform the features described above, please familiarize yourself with Microsoft Excel before
+ proceeding with this guide.
+ 
 [Learn basic Excel skills and terminology](https://www.excel-easy.com/).
 
 ## Software and System requirements

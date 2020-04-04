@@ -20,7 +20,7 @@ financial/statistical process automation.
 **Ribbon**: the graphical control element located at the top of an Excel application. This in where you find 
 categories of functions such as File, Insert, Page Layout, etc.
 
-**spreadsheet**: A software with tabular-formatted interface for organization, analysis and storage of data.
+**Spreadsheet**: A software with tabular-formatted interface for organization, analysis and storage of data.
 
 **VBA**: Acronym for Visual Basic for Applications, a dialect of Visual Basic embedded in Microsoft Office Suite.
          It is widely used in Microsoft Excel as a simple programming language for building macros, forms, and procedures to automate repeating tasks. 

@@ -2,13 +2,15 @@
 layout: default
 title: Introduction
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "MS Excel Useful Procedures Intro"
 permalink: /
 ---
 
 # Introduction
 {: .no_toc }
 Microsoft Excel is the most widely used data communication and calculation tool in business. Microsoft Excel has powerful plotting and data organization abilities that are widely known. However Excel also has many time saving features such as VBA Macros that are not as widely known. This document will provide you with the knowledge about some of those basic time saving features.
+
+The following instructions will guide you on how to build a Gantt chart, create custom table headers, and merge tables in Microsoft Excel.
 
 ## Table of contents
 {: .no_toc .text-delta }

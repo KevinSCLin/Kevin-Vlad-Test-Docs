@@ -73,17 +73,19 @@ A VBA module is where you can create and save functions. Developers use modules 
 
 ```
 Sub createRowLabels()
+
     Dim prefix, postfix As String
     prefix = getPrefix
     postfix = getPostfix
     Dim idStr As String: idStr = getId
     Dim idNumeric As Long
     If IsNumeric(id) Then
-        idNumeric = CInt(id)
+        idNumeric = CInt(idStr)
     Else
         MsgBox ("id is not a number")
         Exit Sub
     End If
+    
     Dim countStr As String: countStr = getCount
     Dim countNumeric As String
     If IsNumeric(countStr) Then
@@ -92,25 +94,30 @@ Sub createRowLabels()
         MsgBox ("number of rows must be a number")
         Exit Sub
     End If
+    
     Dim rowCount As Integer: rowCount = 2
     For i = 1 To countNumeric
         ThisWorkbook.Sheets(1).Range("A" & rowCount).Value = prefix & idNumeric & postfix
         rowCount = rowCount + 1
         idNumeric = idNumeric + 1
     Next i
+
 End Sub
+
 Sub createColumnLabels()
+
     Dim prefix, postfix As String
     prefix = getPrefix
     postfix = getPostfix
     Dim idStr As String: idStr = getId
     Dim idNumeric As Long
     If IsNumeric(id) Then
-        idNumeric = CInt(id)
+        idNumeric = CInt(idStr)
     Else
         MsgBox ("id is not a number")
         Exit Sub
     End If
+    
     Dim countStr As String: countStr = getCount
     Dim countNumeric As String
     If IsNumeric(countStr) Then
@@ -119,24 +126,34 @@ Sub createColumnLabels()
         MsgBox ("number of rows must be a number")
         Exit Sub
     End If
+    
     Dim ColumnCount As Integer: ColumnCount = 2
     For i = 1 To countNumeric
         ThisWorkbook.Sheets(1).Cells(1, ColumnCount).Value = prefix & idNumeric & postfix
         ColumnCount = ColumnCount + 1
         idNumeric = idNumeric + 1
     Next i
+    
 End Sub
+
 Function getPrefix() As String
     getPrefix = InputBox("Enter prefix", "Please enter the prefix (Leave empty if none)")
 End Function
+
 Function getPostfix() As String
     getPostfix = InputBox("Enter postfix", "Please enter the postfix (Leave empty if none)")
 End Function
+
 Function getId() As String
     getId = InputBox("Enter starting number", "Please enter the starting number")
 End Function
+
 Function getCount() As String
-    getCount = InputBox("Enter number of rows to create", "Please enter the number of rows to create")
+    getCount = InputBox("Enter number of items to create", "Please enter the number of items to create")
+End Function
+
+Function getNewTabName() As String
+    getNewTabName = InputBox("Enter the name of new tab", "Please enter the name of the new tab")
 End Function
 ```
 Here is a screenshot snippet of how the VBA editor should look like.

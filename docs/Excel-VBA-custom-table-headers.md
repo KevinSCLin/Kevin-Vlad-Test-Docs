@@ -208,6 +208,7 @@ The fastest method is to add buttons and mapped them to the macros we created ab
 ## Benefits of using macro
 You can save a lot of time by using macro to automate tasks and avoid human error from manual entry.
 
+
 ---
 
 [NOTE]: https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/note_icon.png?raw=true

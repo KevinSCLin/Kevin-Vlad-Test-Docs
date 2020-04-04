@@ -193,5 +193,5 @@ We need to modify the bars, axes range, axes labels, and title to convert it int
 
 ## Benefits of a Gantt chart
 
-A Gantt chart provides a fast visual breakdown of tasks to do in series, which helps the viewer to reorder 
-and prioritize tasks.
+A Gantt chart provides a fast visual breakdown of tasks to do in series, which can help you in reordering
+and prioritizing tasks. You now have the knowledge to create a Gantt chart in Excel.

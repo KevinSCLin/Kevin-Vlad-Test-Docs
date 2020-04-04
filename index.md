@@ -28,10 +28,10 @@ As most businesses use Excel, any additional skills learned can be beneficial fo
 This instruction is tailored towards a user with previous knowledge of Microsoft Excel. As such, no instructions about basic skills and terminology will be provided in this document. 
 
 Basic knowledge of Excel features includes the following:
- * Creating and saving Excel spreadsheets,
- * Understanding the different formats in a cell's value, such as _General_, _Date_, _Scientific_,
- * Cutting, copying, pasting, and entering values in cells,
- * Using aggregate functions (SUM, AVERAGE, MIN, MAX) across a range of cells.
+ * creating and saving Excel spreadsheets,
+ * understanding the different formats in a cell's value, such as _General_, _Date_, _Scientific_,
+ * cutting, copying, pasting, and entering values in cells, and
+ * using aggregate functions (SUM, AVERAGE, MIN, MAX) across a range of cells.
  
  If you cannot perform the features described above, please familiarize yourself with Microsoft Excel before
  proceeding with this guide.

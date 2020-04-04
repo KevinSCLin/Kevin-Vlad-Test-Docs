@@ -56,7 +56,7 @@ Basic knowledge of Excel features includes the following:
 * ![Alert][ALERT] **Alert** symbol and indicates caution is necessary when proceeding.
 
 
-[NOTE]: https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/note_icon.png?raw=true
-[ALERT]: https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/alert_icon.png?raw=true
+[NOTE]: https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/note_icon.png?raw=true
+[ALERT]: https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/alert_icon.png?raw=true
 
 

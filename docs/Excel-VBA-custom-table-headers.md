@@ -41,7 +41,7 @@ file type as **Excel Macro-Enabled Workbook (\*.xlsm)**
 
     ![warning][ALERT] WARNING: Saving the file as regular Excel workbook (.xlsx) will result in the loss of ALL VBA codes!
     
-    ![xlsm save](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/save_as_xlsm.png?raw=true)
+    ![xlsm save](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/save_as_xlsm.png?raw=true)
 
 2. Go to [File] > [Options].
 
@@ -52,7 +52,7 @@ file type as **Excel Macro-Enabled Workbook (\*.xlsm)**
 
     You should see a new tab named **Developer** at the ribbon located at the top.
 
-    ![ExcelOptions](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/ExcelOptions.PNG?raw=true)
+    ![ExcelOptions](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/ExcelOptions.PNG?raw=true)
 
 
 ---
@@ -61,7 +61,7 @@ A VBA module is where you can create and save functions. Developers use modules 
 
 1. Go to [Developer] > [Visual Basic] to open VBA Integrated Development Environment.
 
-    ![VBA_IDE](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/VBA_IDE.PNG?raw=true)
+    ![VBA_IDE](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/VBA_IDE.PNG?raw=true)
 
 2. Insert a new module by going to [Insert] > [Module]. A new module named **Module1** appears in the **Modules** folder in the [Project] window.
 
@@ -158,20 +158,20 @@ End Function
 ```
 Here is a screenshot snippet of how the VBA editor should look like.
 
-![VBA IDE with codes](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/VBA_codes_pasted.png?raw=true)
+![VBA IDE with codes](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/VBA_codes_pasted.png?raw=true)
 
 ---
 ## Implement the row & column label macros in the spreadsheet
 The fastest method is to add buttons and mapped them to the macros we created above.
 1. Go to [Developer] > [Insert] > [Form Controls] > **Button**.
 
-    ![insert button](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/developer_insert_button.png?raw=true)
+    ![insert button](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/developer_insert_button.png?raw=true)
 
 2. Left-click and drag a small distance to create a new button.
 
     An **Assign Macro** window appears to connect the macro to this button.
     
-    ![Assign Macro](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/assignMacro.PNG?raw=true)
+    ![Assign Macro](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/assignMacro.PNG?raw=true)
 2. Assign the createColumnLabels macro by double clicking on it.
 3. Rename Button 1 to a different name by right-clicking on it, and edit the text inside the button
 4. Repeat steps 1, 2, and 3 above to implement the row label macro.
@@ -180,21 +180,21 @@ The fastest method is to add buttons and mapped them to the macros we created ab
 ## How to use the macro
 1. Activate the **create column labels** macro by click on the button named after it.
 
-    ![column button](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/column_labels_button.png?raw=true)
+    ![column button](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/column_labels_button.png?raw=true)
 
 2. Enter the prefix in the message box titled _Please enter the prefix (Leave empty if none)_. Click **OK** to continue.
 
-    ![prefix window](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/prefix_popup.PNG?raw=true)
+    ![prefix window](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/prefix_popup.PNG?raw=true)
 
 3. Enter the postfix in the message box titled _Please enter the postfix (Leave empty if none)_. Click **OK** to continue.
 
-    ![postfix window](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/postfix_popup.PNG?raw=true)
+    ![postfix window](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/postfix_popup.PNG?raw=true)
 
 4. Enter the first number in the series of columns in the message box titled _Please enter the starting number_.
 
     You must enter a integer number and cannot leave this box empty. Click **OK** to continue.
 
-    ![starting number window](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/rows_popup.PNG?raw=true)
+    ![starting number window](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/rows_popup.PNG?raw=true)
 
 5. Enter the number of columns to create in the message box titled _Please enter the number of rows to create_.
 
@@ -203,7 +203,7 @@ The fastest method is to add buttons and mapped them to the macros we created ab
     Excel will generate the column labels based on the information you entered.
     Below is an example of a table created using the macro above.
     
-    ![table example](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/table_example.png?raw=true)
+    ![table example](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/table_example.png?raw=true)
 
 ## Benefits of using macro
 You can save a lot of time by using macro to automate tasks and avoid human error from manual entry.
@@ -211,5 +211,5 @@ You can save a lot of time by using macro to automate tasks and avoid human erro
 
 ---
 
-[NOTE]: https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/note_icon.png?raw=true
-[ALERT]: https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/alert_icon.png?raw=true
+[NOTE]: https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/note_icon.png?raw=true
+[ALERT]: https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/alert_icon.png?raw=true

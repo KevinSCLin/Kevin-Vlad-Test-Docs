@@ -27,7 +27,7 @@ A Gantt chart provides a viewer a quick, generalized breakdown of time-based wei
 You will need the tasks and their start date or duration entered in a tabular form.
 Here is an example.
 
-![Gantt Chart sample table](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/gantt_chart_sample_tasks.png?raw=true)
+![Gantt Chart sample table](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/gantt_chart_sample_tasks.png?raw=true)
 
 ---
 ## Insert Graph and Add Data
@@ -35,7 +35,7 @@ Here is an example.
 ### Adding a graph to Excel spreadsheet
 1. Go to [Insert] > [Charts] > [2-D bar] > **Stacked Bar**.
 
-    ![2D stacked bar button](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/2D_stacked_bar.png?raw=true)
+    ![2D stacked bar button](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/2D_stacked_bar.png?raw=true)
     
     A blank graph appears.
     
@@ -46,7 +46,7 @@ Here is an example.
 
 2. Click the **Add** button.
 
-    ![add button](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/select_data_source_add_button.PNG?raw=true)
+    ![add button](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/select_data_source_add_button.PNG?raw=true)
     
     The _Select Data Source_ transforms to _Edit Series_ window.
     
@@ -54,11 +54,11 @@ Here is an example.
     
     The _Edit Series_ box transforms to show only a text box for select or entering the range of the title.
     
-    ![series name up arrow](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/edit_series_series_name_up_button.png?raw=true)
+    ![series name up arrow](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/edit_series_series_name_up_button.png?raw=true)
 
 3. Click on the title for starting date.
 
-    ![series name select_title](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/edit_series_select_title.png?raw=true)
+    ![series name select_title](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/edit_series_select_title.png?raw=true)
    
    Next, click the Down Arrow adjacent to _Series name_ textbox to complete selection of title.
    
@@ -66,13 +66,13 @@ Here is an example.
    
 4. Click on the Up Arrow adjacent to _Series values_ text box allow selection of task names in the chart.
 
-   ![series values up arrow](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/edit_series_series_values_up_button.PNG?raw=true)
+   ![series values up arrow](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/edit_series_series_values_up_button.PNG?raw=true)
 
    The _Edit Series_ box transforms to show only a text box for select or entering the range of cells storing the task starting dates.
       
    Left-click and drag to select the cells containing the task start dates. Click the Down Arrow to complete selection.
    
-   ![series values up arrow](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/edit_series_select_values.png?raw=true)
+   ![series values up arrow](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/edit_series_select_values.png?raw=true)
    
    The _Edit Series_ box transforms back to its original form.
    Both text boxes should contain the cell ranges containing the required information.
@@ -83,7 +83,7 @@ Here is an example.
 
 1. Click on the **Edit** button in _Select Data Source_ window.
 
-    ![edit button](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/select_data_source_edit_button.png?raw=true)
+    ![edit button](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/select_data_source_edit_button.png?raw=true)
     
     The _Select Data Source_ window transforms into _Axis Labels_ window.
     
@@ -92,17 +92,17 @@ Here is an example.
     
 2. Click on the Up Arrow button adjacent to the _Axis label range_ text box.
     
-    ![axis labels up button](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/axis_labels_up_button.PNG?raw=true)
+    ![axis labels up button](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/axis_labels_up_button.PNG?raw=true)
     
 3. Left-click and drag to select the cells containing the task names.
 
-    ![select title range](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/axis_labels_select_range.png?raw=true)
+    ![select title range](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/axis_labels_select_range.png?raw=true)
 
     The _Axis Labels_ text box now contains the range storing the names of tasks.
     
     Click on the Down Arrow to return to the initial _Axis Labels_ window.
     
-    ![axis labels up button](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/axis_labels_textbox_filled.png?raw=true)
+    ![axis labels up button](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/axis_labels_textbox_filled.png?raw=true)
 
 ### Adding duration to tasks
 
@@ -112,7 +112,7 @@ if you understand how to add new data to a graph.
 
 1. Click the **Add** button in the _Select Data Source_ window.
 
-    ![add button2](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/select_data_source_add_button_2.PNG?raw=true)
+    ![add button2](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/select_data_source_add_button_2.PNG?raw=true)
 
     The _Select Data Source_ window transforms into _Axis Labels_ window.
     
@@ -120,11 +120,11 @@ if you understand how to add new data to a graph.
         
     The _Edit Series_ box transforms to show only a text box for select or entering the range of the title.
         
-    ![series name up arrow](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/edit_series_series_name_up_button.png?raw=true)
+    ![series name up arrow](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/edit_series_series_name_up_button.png?raw=true)
     
 2. Click on the title for task duration.
 
-    ![series name select_title](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/edit_series_select_title2.png?raw=true)
+    ![series name select_title](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/edit_series_select_title2.png?raw=true)
 
    Next, click the Down Arrow adjacent to _Series name_ textbox to complete selection of title.
    
@@ -136,7 +136,7 @@ if you understand how to add new data to a graph.
    
 3. Left-click and drag to select the cells containing the task names. Click the Down Arrow to complete selection.
 
-    ![series name select_title](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/edit_series_select_values2.png?raw=true)     
+    ![series name select_title](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/edit_series_select_values2.png?raw=true)     
    
       The _Edit Series_ box transforms back to its original form.
       Both text boxes should contain the cell ranges containing the required information.
@@ -150,7 +150,7 @@ if you understand how to add new data to a graph.
 The graph produced from the steps above is not a Gantt chart.
 We need to modify the bars, axes range, axes labels, and title to convert it into a Gantt chart.
 
-![initial chart](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/initial_chart.png?raw=true)
+![initial chart](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/initial_chart.png?raw=true)
 
 ### Remove starting date as independent bars
 
@@ -162,12 +162,12 @@ We need to modify the bars, axes range, axes labels, and title to convert it int
     
     The blue bars become invisible in the graph.
     
-    ![format data series](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/format_data_series_no_fill.png?raw=true)
+    ![format data series](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/format_data_series_no_fill.png?raw=true)
 
 3. Invert the y-axis order first by clicking on any task name on the y-axis to activate _Format Axis_ window.
     Click on the bar chart icon to switch to _Axis Options_. Check the box labeled **Categories in reverse order**.
     
-    ![format data series](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/format_axis_reverse_order.png?raw=true)
+    ![format data series](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/format_axis_reverse_order.png?raw=true)
 
 4. Edit the x-axis first by click on any date label to activate _Format Axis_. Click on the bar chart icon same as the
     image to open _Axis Options_. Under _Bounds_ incrementally add the Minimum and subtract the Maximum values until the bars
@@ -177,7 +177,7 @@ We need to modify the bars, axes range, axes labels, and title to convert it int
     April 1, 2020's equivalent integer date value in Excel is 43922, meaning 43921 days have passed since
     January 1, 1900.
     
-    ![format data series](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/format_axis_bounds.png?raw=true)
+    ![format data series](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/format_axis_bounds.png?raw=true)
 
 5. Modify the number format by expanding the _Number_ tab at the bottom of _Format Axis_ and click on the **Type** dropdown.
    Select a format to your liking and save the file. 
@@ -187,9 +187,9 @@ We need to modify the bars, axes range, axes labels, and title to convert it int
     
     You now have a completed Gantt chart.
     
-    ![gantt chart finished](https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/gantt_chart_finished.png?raw=true)
+    ![gantt chart finished](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/gantt_chart_finished.png?raw=true)
 
-[NOTE]: https://github.com/KevinSCLin/Kevin-Vlad-Test-Docs/blob/gh-pages/assets/images/note_icon.png?raw=true
+[NOTE]: https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/note_icon.png?raw=true
 
 ## Benefits of a Gantt chart
 

@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Kevin Vlad Test Docs
-description: Testing Jekyll
+title: Microsoft Excel Useful Procedures
+description: Three powerful procedures to improve productivity in Excel
 baseurl: "/Microsoft-Excel-Useful-Procedures/" # the subpath of your site, e.g. /blog
 url: "https://kevinsclin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 

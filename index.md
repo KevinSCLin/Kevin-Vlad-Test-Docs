@@ -53,7 +53,7 @@ Basic knowledge of Excel features includes the following:
 
 
 * ![Note][NOTE] **Note** symbol which indicates important information.
-* ![Alert][ALERT] **Alert** symbol and indicates caution is necessary when proceeding.
+* ![Alert][ALERT] **Alert** symbol which indicates caution is necessary when proceeding.
 
 
 [NOTE]: https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/note_icon.png?raw=true

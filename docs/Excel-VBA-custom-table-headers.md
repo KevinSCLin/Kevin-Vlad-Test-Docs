@@ -204,6 +204,8 @@ The fastest method is to add buttons and mapped them to the macros we created ab
     Below is an example of a table created using the macro above.
     
     ![table example](https://github.com/KevinSCLin/Microsoft-Excel-Useful-Procedures/blob/gh-pages/assets/images/table_example.png?raw=true)
+    
+    Congratulation! You have learned how to use a macro to auto-populate row and column headers.
 
 ## Benefits of using macro
 You can save a lot of time by using macro to automate tasks and avoid human error from manual entry.
